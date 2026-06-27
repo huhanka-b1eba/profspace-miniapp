@@ -1,13 +1,13 @@
-import './App.css'
-import {Button} from "@shared/ui/button";
+import { Button } from "@shared/ui/button"
+
+import "./App.css"
 
 function App() {
-
-  return (
-    <>
-      <Button>Клик</Button>
-    </>
-  )
+    return (
+        <div>
+            <Button>Клик</Button>
+        </div>
+    )
 }
 
 export default App
